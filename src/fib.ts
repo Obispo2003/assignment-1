@@ -8,5 +8,5 @@ export default function fibonacci(n) {
     return 1;
   }
 
-  return fibonacci(Number(n) - 1) + fibonacci(Number(n) - 2);
+  return Number(fibonacci(n - 1)) + Number(fibonacci(n - 2));
 }
